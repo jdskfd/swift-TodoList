@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A04B504C2609876600C9271E /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04B504B2609876600C9271E /* File.swift */; };
 		A0A6FCB42601A59B009C21C7 /* TodoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A6FCB32601A59B009C21C7 /* TodoListApp.swift */; };
 		A0A6FCB62601A59B009C21C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A6FCB52601A59B009C21C7 /* ContentView.swift */; };
 		A0A6FCB82601A59B009C21C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0A6FCB72601A59B009C21C7 /* Assets.xcassets */; };
@@ -14,9 +15,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A04B504B2609876600C9271E /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		A0A6FCB02601A59B009C21C7 /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0A6FCB32601A59B009C21C7 /* TodoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListApp.swift; sourceTree = "<group>"; };
-		A0A6FCB52601A59B009C21C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A0A6FCB52601A59B009C21C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 4; };
 		A0A6FCB72601A59B009C21C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0A6FCBA2601A59B009C21C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A0A6FCBC2601A59B009C21C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				A0A6FCB52601A59B009C21C7 /* ContentView.swift */,
 				A0A6FCB72601A59B009C21C7 /* Assets.xcassets */,
 				A0A6FCBC2601A59B009C21C7 /* Info.plist */,
+				A04B504B2609876600C9271E /* File.swift */,
 				A0A6FCB92601A59B009C21C7 /* Preview Content */,
 			);
 			path = TodoList;
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0A6FCB62601A59B009C21C7 /* ContentView.swift in Sources */,
+				A04B504C2609876600C9271E /* File.swift in Sources */,
 				A0A6FCB42601A59B009C21C7 /* TodoListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
